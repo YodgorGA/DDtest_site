@@ -1,0 +1,171 @@
+.wrapper{
+    background-color: #fff;
+}
+
+._container{
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.contents{
+    position: fixed;
+    padding:20px 0px 10px 0px;
+    opacity: 0.8;  
+    right: 0;
+}
+
+ol li{
+    list-style-type: decimal;
+}
+
+.arrow{
+    position: fixed;
+    padding:260px 0px 0px 0px;
+    opacity: 0.8;  
+    left: 100px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.arrowBtn{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-left: 17px;
+}
+.contents ol>*:not(:last-child){
+    padding: 0px 0px 35px 0px;
+    
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+}
+
+.chapter{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    margin: 40px 0px;
+}
+
+.chapter__title{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.chapter__body{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.chapter__body p{
+    padding: 10px 0px 10px 0px;
+    line-height: 170%;
+}
+
+.body__left{
+    max-width: 800px;
+}
+.body__right{
+    color:#fff;
+    background-color:#282c35;
+    padding: 5px 40px;
+    margin: 0px 0px 0px 50px;
+    border-radius: 10px;
+    align-self:flex-end;
+
+}
+
+.cd{
+    color:rgb(226, 209, 55);
+}
+
+.npm{
+    color:rgb(9, 95, 138);
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    color:rgb(109, 108, 108);    
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+
+.chapter__body a{
+    background: #EAFAFE;
+    border-bottom: 1px solid rgb(196, 195, 195);
+}
+.chapter__body a:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.chapter__body li{
+    list-style-type:disc;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width:1600px){
+    .arrow{
+        left:50px;
+    }
+}
+
+@media (max-width:1440px){
+    ._container{
+        padding: 10px 0px;
+    }
+    .chapter{
+        margin: 10px 0px;
+        
+    }
+    .chapter h2{
+        font-size: 17px;
+    }
+    .chapter__body{
+        font-size: 14px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .body__right{
+        align-self:start;
+        margin-left: 0px;
+    }    
+
+}
+
+@media (max-width:1188px){
+    ._container{
+        padding: 10px 10px;
+    }
+}
+
+/*Делать размер экрана меньше 1188 - НЕ РЕКОМЕНДУЮ, поберегите свои глаза ВD*/
+

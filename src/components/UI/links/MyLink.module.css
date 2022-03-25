@@ -1,0 +1,10 @@
+.MyLink{
+    font-size: inherit;
+    display: inline-block;
+    transition: color 0.2s ease-out;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+}
+.MyLink:hover{
+    cursor: pointer;
+}

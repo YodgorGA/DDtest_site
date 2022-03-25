@@ -1,0 +1,27 @@
+.MyBtn {
+    display: inline-block;
+    background-color: #61dafb;
+    color: #000000;
+    padding: 10px 25px;
+    white-space: nowrap;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+}
+.MyBtn:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width:1439px){
+
+}
+
+@media (max-width:767px){
+    .MyBtn{
+        font-size: 16px;
+    }
+}
